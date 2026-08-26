@@ -1,0 +1,10 @@
+脚本名称：VT_test（临时版本）
+主要功能：Android 虚拟化技术（VT）功能测试
+详细说明：
+  - 与 chao_power/chao_reboot 结构相同
+  - 通过雷电模拟器（LDPlayer）控制虚拟 Android 设备
+  - 使用 uiautomator2 控制 UI，OpenCV 进行图像匹配
+  - 专门针对 VT（虚拟化技术）相关功能进行稳定性测试
+  - 此版本为临时/开发中版本
+配置项：device_ip（192.168.1.100）、power_sn（模拟器序号 4）
+入口文件：VT_test.py

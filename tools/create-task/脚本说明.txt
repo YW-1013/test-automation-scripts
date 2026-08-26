@@ -1,0 +1,8 @@
+﻿脚本名称：create_task（待实现版本）
+主要功能：Windows 任务计划创建工具（开发中）
+详细说明：
+  - 带 tkinter + PIL 图形界面
+  - 通过 win32com 调用 Windows Task Scheduler 创建定时任务
+  - 支持检测任务是否已存在（task_exists 函数）
+  - 计划完善：提供完整 GUI 配置界面，支持创建/修改/删除 Windows 定时任务
+入口文件：create_task.py

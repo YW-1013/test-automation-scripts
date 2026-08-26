@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试结果汇总</title>
+    <style>
+        .fail {
+            color: red;
+         width: 5em;
+         text-align: center;
+        }
+        .success {
+            color: green;
+         width: 5em;
+         text-align: center;
+        }
+      .details-col-elapsed {
+         width: 10em;
+         text-align: left;
+      }
+      .details-col-msg {
+         width: 5em;
+         text-align: center;
+         background-color:#ccc;
+      }
+      .details-col-msg1 {
+         width: 10em;
+         text-align: center;
+         background-color:#ccc;
+      }
+      .time_now {
+         width: 5em;
+         text-align: center;
+      }
+      .time_use {
+         width: 5em;
+         text-align: center;
+      }
+      .panel-container{
+        display:flex
+        flex-direction:column;
+      }
+      .panel{
+        flex:1;
+        padding:10px;
+        border: 1px solid #ccc;
+        background-color:#90EE90;
+      }
+
+
+
+    </style>
+</head>
+<body>
+<div style="width: 1200px">
+<div><h2 style="width: 800px; margin:0 auto;text-align:center">{{report_name_title}}测试报告</h2></div>
+    <div class="panel-container">
+        <div class="panel">开始时间：{{start_time_all}}</div>
+        <div class="panel">用例总数：{{total_cases}}</div>
+        <div class="panel">成功数量：{{cases_success}}</div>
+        <div class="panel">失败数量：{{cases_fail}}</div>
+        <div class="panel">成功比率：{{success_rate}}</div>
+        <div class="panel">运行耗时：{{user_all}}</div>
+    </div>
+    <table width="1200" border="thin" cellspacing="0" cellpadding="0">
+        <tr>
+            <th width="600" class='details-col-msg1'>用例名称</th>
+            <th width="200" class='details-col-msg'>开始时间</th>
+            <th width="200" class='details-col-msg'>运行时长</th>
+            <th width="200" class='details-col-msg'>执行结果</th>
+        </tr>
+        {% for r in results %}
+        <tr width="1200">
+            <td class='details-col-elapsed'><a href="./{{r.name}}/log.html" target="view_window">{{r.name}}</a></td>
+            <td class="time_now">{{r.time_now}}</td>
+            <td class="time_use">{{r.time_use}}</td>
+            <td class="{{'success' if r.result else 'fail'}}">{{"成功" if r.result else "失败"}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>

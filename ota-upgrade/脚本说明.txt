@@ -1,0 +1,10 @@
+﻿脚本名称：ota_update
+主要功能：BIOS OTA 升级自动化脚本
+详细说明：
+  - 通过 WMI 获取当前 BIOS 版本（格式：V500R001B01XXX）
+  - 使用 OpenCV 图像识别检测升级工具是否已打开
+  - 通过 pyautogui 自动操作界面完成 BIOS 升级流程
+  - 支持通过 Windows 任务计划（Task Scheduler）在重启后自动继续升级
+  - 升级前后自动对比版本号验证升级结果
+配置项：old_version、new_version（如 D020 -> D021）
+入口文件：bios_update.py

@@ -1,0 +1,20 @@
+{
+    "connect_wifi_name": "setting-5G-open",
+    "wifi_password": "YOUR_WIFI_PASSWORD",
+    "connect_timeout": "300",
+    "rms_mic": "",
+    "record_time": "",
+    "u_disk_name": "",
+    "camera_name": "",
+    "boot_delay": "30",
+    "sim_check": "",
+    "test_project": "8K",
+    "auto_start_type": "\u662f",
+    "selected_test_items": {
+        "HDMI Record\u68c0\u6d4b": true,
+        "HDMI Extend\u68c0\u6d4b": true,
+        "\u9ea6\u514b\u98ce\u68c0\u6d4b": true,
+        "\u76f8\u673a\u68c0\u6d4b": true,
+        "U\u76d8\u68c0\u6d4b": true
+    }
+}

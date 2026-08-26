@@ -1,0 +1,9 @@
+﻿脚本名称：check_version
+主要功能：固件/应用版本信息核对工具
+详细说明：
+  - 读取 Excel 文件（version.xlsx）中的固件名称和版本号
+  - 将数据存储为列表格式并打印输出
+  - 用于快速核对 Android 设备上各固件/应用的版本是否符合预期
+  - 当前为基础功能版本，可扩展为与设备实际版本对比
+依赖文件：version.xlsx（需提前准备）
+入口文件：Check_version_android.py

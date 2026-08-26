@@ -1,0 +1,56 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ===== PyInstaller 打包产物 =====
+build/
+dist/
+*.spec.bak
+*.manifest
+
+# ===== 编译/二进制产物（体积大，不入库）=====
+*.exe
+*.exe.bak*
+*.bak_*
+*.dll
+*.pkg
+*.pyz
+*.toc
+*.jar
+*.pt          # YOLO 模型权重
+ffmpeg.exe
+adb/
+
+# ===== 运行时产物 =====
+logs/
+*.log
+*.log.*
+screenshot*.png
+*_result_*.xlsx
+_u2jar_backup/
+
+# ===== 大体积素材（测试用视频/音频/PPT/压缩包）=====
+*.mp4
+*.mkv
+*.wav
+*.pptx
+*.zip
+~$*
+
+# ===== 真实配置（含设备 IP/参数），仓库只保留 *.example.json =====
+config.json
+config_*.json
+!config*.example.json
+audio_test.ini
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

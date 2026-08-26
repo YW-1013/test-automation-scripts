@@ -1,0 +1,10 @@
+﻿脚本名称：driver_test
+主要功能：Windows 驱动安装自动化测试工具
+详细说明：
+  - 扫描指定驱动目录（SU_LP88_Drivers_WIN11_X64）下的所有驱动子文件夹
+  - 子文件夹按数字前缀排序，逐一安装并检测
+  - 通过 WMI 查询系统已安装驱动状态，对比预期结果
+  - 生成带颜色标注的 Excel 报告（金色表头，红/绿标注通过/失败）
+  - 使用 openpyxl 处理 Excel 文件
+输出文件：driver_test.xlsx
+入口文件：DriverTest.py

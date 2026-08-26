@@ -1,0 +1,10 @@
+﻿脚本名称：chao_reboot
+主要功能：Android 设备超循环重启稳定性测试
+详细说明：
+  - 与 chao_power 结构相同，测试场景为循环重启
+  - 通过雷电模拟器控制虚拟 Android 设备
+  - 使用 uiautomator2 控制设备 UI，OpenCV 验证界面状态
+  - 循环执行重启流程，统计重启成功/失败次数
+  - 记录失败截图和日志
+配置项：device_ip、power_sn（模拟器序号 4）
+入口文件：chao_reboot.py

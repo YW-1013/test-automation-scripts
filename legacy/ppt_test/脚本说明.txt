@@ -1,0 +1,9 @@
+﻿脚本名称：ppt_test（临时版本）
+主要功能：WPS 历史版本信息爬取工具
+详细说明：
+  - 爬取豌豆荚网站上 WPS 应用的历史版本列表
+  - 解析各版本的版本码（data-app-vcode）
+  - 将版本数据写入飞书电子表格（FeishuSheet）
+  - 主要用于跟踪 WPS 版本发布历史，辅助兼容性测试
+依赖：requests、lxml、自定义 feishu_sheet 模块
+入口文件：test.py

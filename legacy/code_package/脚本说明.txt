@@ -1,0 +1,9 @@
+﻿脚本名称：code_package（稳定版本）
+主要功能：设备功能包接口测试（WiFi + HTTP）
+详细说明：
+  - 通过 pywifi 连接指定 WiFi（支持带密码的 WiFi）
+  - 通过 HTTP 接口对设备功能包进行自动化测试
+  - 统计测试运行次数、成功次数、失败次数
+  - 记录时间戳，支持长时间稳定性测试
+配置项：wifi_name、wifi_password
+入口文件：common_functions.py

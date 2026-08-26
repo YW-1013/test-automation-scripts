@@ -1,0 +1,10 @@
+﻿脚本名称：chao_power
+主要功能：Android 设备超循环上下电稳定性测试
+详细说明：
+  - 通过雷电模拟器（LDPlayer）控制虚拟 Android 设备
+  - 使用 uiautomator2 控制设备 UI 操作
+  - 使用 OpenCV 图像模板匹配验证界面状态
+  - 循环执行上电、操作、下电流程，检测设备稳定性
+  - 记录失败截图和日志，用于分析异常
+配置项：device_ip、power_ip、power_sn（模拟器序号）等
+入口文件：chao_power.py

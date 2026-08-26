@@ -1,0 +1,18 @@
+{
+    "device_ip": "192.168.1.100",
+    "power_ip": "emulator-5554",
+    "connect_wifi_name": "setting-5G-open",
+    "wifi_password": "YOUR_WIFI_PASSWORD",
+    "power_sn": "0",
+    "power_path": "D:\\leidian\\LDPlayer9\\dnplayer.exe",
+    "power_process_name": "dnplayer.exe",
+    "power_name": "111",
+    "test_interval": "80",
+    "test_message": "111",
+    "test_project": "megabook",
+    "selected_method": "\u4e0a\u4e0b\u7535",
+    "stop_type": "\u662f",
+    "selected_test_items": {
+        "\u5145\u7535\u68c0\u6d4b": true
+    }
+}

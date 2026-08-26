@@ -1,0 +1,22 @@
+{
+    "host_ip": "192.168.1.100",
+    "connect_wifi_name": "\u65e0",
+    "wifi_password": "\u65e0",
+    "connect_timeout": "60",
+    "rms_mic": "100000000000",
+    "time_set_screen": "300",
+    "time_set_sleep": "300",
+    "record_time": "13",
+    "u_disk_name": "",
+    "camera_name": "",
+    "boot_delay": "30",
+    "sim_check": "0.8",
+    "light_threshold": "10",
+    "bt_name": "",
+    "auto_start_type": "\u662f",
+    "selected_test_items": {
+        "\u9ea6\u514b\u98ce\u68c0\u6d4b": true,
+        "\u76f8\u673a\u68c0\u6d4b": true,
+        "U\u76d8\u68c0\u6d4b": true
+    }
+}

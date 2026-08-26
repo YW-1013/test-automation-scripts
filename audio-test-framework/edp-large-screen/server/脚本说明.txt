@@ -1,0 +1,10 @@
+﻿脚本名称：audio_test
+主要功能：Android 设备音频自动化测试工具
+详细说明：
+  - 带 tkinter GUI 界面，操作友好
+  - 使用 YOLO 图像识别模型辅助判断界面状态
+  - 通过 PyAudio 进行音频录制和频谱分析，检测音频是否正常
+  - 支持 WiFi 连接配置（pywifi）
+  - 记录测试错误次数，支持多版本定义（V1.0/V1.1/V1.2）
+  - 需安装 ffmpeg 及 YOLO 模型文件
+入口文件：AndroidAudioTest.py
